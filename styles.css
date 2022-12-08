@@ -4,3 +4,44 @@
     margin: 0;
     box-sizing: border-box;
     }
+
+    nav {
+        height: 70px;
+        display: flex;
+        justify-content: space-between;
+        align-items: center;
+        background-color: #cafdff;
+        padding: 0 16px;
+    }
+
+    .logo {
+        width: 300px;
+    }
+
+    a {
+        color: black;
+        font-size: 24px;
+        font-weight: 700;
+    }
+
+    ul {
+        display: flex;
+    }
+
+    li {
+        list-style-type: none;
+        padding-left: 16px;
+    }
+
+    header {
+        background-color: #eadcff;
+        height:calc(100vh - 70px);
+        padding: 24px;
+        display: flex;
+        align-items: center;
+        justify-content: center;
+    }
+
+    h1 {
+        
+    }
